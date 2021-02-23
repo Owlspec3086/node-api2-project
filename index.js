@@ -4,7 +4,7 @@ const postsRouter = require('./posts/posts-Router.js');
 const server = express();
 const port = 9000;
 server.use(express.json());
-server.use(cors());
+// server.use(cors());
 
 server.use('/api/posts', postsRouter);
 
